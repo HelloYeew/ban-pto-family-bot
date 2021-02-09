@@ -25,3 +25,15 @@ def check_library():
         print("Pytube install complete!")
     finally:
         import pytube
+
+    # check pytube
+    print("Checking giphy_client...")
+    try:
+        import giphy_client
+    except ImportError:
+        print("giphy_client not found.")
+        print("Run install command : -m pip install giphy_client")
+        subprocess.check_call([sys.executable, "-m", "pip", "install", 'giphy_client'])
+        print("giphy_client install complete!")
+    finally:
+        import giphy_client

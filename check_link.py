@@ -2,10 +2,11 @@ from pytube import YouTube
 import os
 
 prohibit_keyword = ["พี่โต", "พรี่โต", "พรี่คาซึยะ", "พี่คาซึยะ", "พี่ตู่", "พี่หลาม", "ใจเกเร", "Ricardo Milos",
-                    "ricardo milos", "Ricardo milos", "Ricardo", "Milos", "milos",
+                    "ricardo milos", "Ricardo milos", "Ricardo", "Milos", "milos", "ริคาร์โด้",
                     "ricardo", "milos", "เ ก ลี ย ด ค ว า ม ห วั่ น ไ ห ว", "เผาเมืองแปร", "ออกศึก", "pto",
                     "ใ จ เ ก เ ร", "danny", "lee", "danny lee", "Danny", "Lee", "Danny Lee", "Danny lee"]
 
+# slicing word
 
 def check_youtube(url):
     video = YouTube(url)

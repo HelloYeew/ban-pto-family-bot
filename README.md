@@ -37,6 +37,10 @@ You don't want to care about PIP package because if you don't have a required li
 $ python3 main.py
 ```
 
+## I already have my bot that is currently running. Can I still run this bot?
+
+Yes, just use your bot's token and run this script. Both your normal command and ban p'to command will work together!
+
 ## Contribute
 
 You can fork this repo and
