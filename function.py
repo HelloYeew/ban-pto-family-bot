@@ -1,5 +1,5 @@
-def read_ban_file():
-    my_file = open("ban_link_list.txt", "r")
+def read_file(file_name):
+    my_file = open(file_name, "r")
     content_list = my_file.readlines()
     ban_list = []
     for i in content_list:
